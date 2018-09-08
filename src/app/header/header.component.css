@@ -1,0 +1,31 @@
+.header {
+    overflow: hidden;
+    background-color: #1062e5;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  .pipe{
+    font-size: 37px;
+    color: white;
+    float: left;
+    font-weight: bold;
+  }
+  
